@@ -1,0 +1,23 @@
+{
+  "name": "practice6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "To make it easy for you to get started with GitLab, here's a list of recommended next steps.",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/bryan.bandaso11102000/mm1-bryan-ade-bandaso-19102011.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/bryan.bandaso11102000/mm1-bryan-ade-bandaso-19102011/issues"
+  },
+  "homepage": "https://gitlab.com/bryan.bandaso11102000/mm1-bryan-ade-bandaso-19102011#readme"
+}

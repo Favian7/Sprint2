@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>Regis</title>
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="regis.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+</head>
+
+</body>
+<section class="h-100 h-custom gradient-custom-2">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12">
+          <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+            <div class="card-body p-0">
+              <div class="row g-0">
+                <div class="col-lg-6">
+                  <div class="p-5">
+                    <h3 class="fw-normal mb-5" style="color: #4835d4;">Register</h3>
+
+                    <div class="mb-4 pb-2">
+                        <div class="form-outline">
+                          <input type="text" id="form3Examplev4" class="form-control form-control-lg" />
+                          <label class="form-label" for="form3Examplev4">Email</label>
+                        </div>
+                    </div>
+
+                    <div class="mb-4 pb-2">
+                        <div class="form-outline">
+                          <input type="text" id="form3Examplev4" class="form-control form-control-lg" />
+                          <label class="form-label" for="form3Examplev4">Username</label>
+                        </div>
+                    </div>
+
+                    <div class="mb-4 pb-2">
+                      <div class="form-outline">
+                        <input type="password" id="pass" class="form-control form-control-lg" />
+                        <label class="form-label" for="form3Examplev4">Password</label></br>
+                        <input type="checkbox" onclick="myFunction()">Show Password
+                      </div>
+                    </div>
+
+                    
+  
+                  </div>
+                </div>
+                <div class="col-lg-6 bg-indigo text-white">
+                  <div class="p-5">
+                    <h3 class="fw-normal mb-5">Personal Data</h3>
+  
+                    <div class="mb-4 pb-2">
+                      <div class="form-outline form-white">
+                        <input type="text" id="form3Examplea2" class="form-control form-control-lg" />
+                        <label class="form-label" for="form3Examplea2">Nama Lengkap</label>
+                      </div>
+                    </div>
+  
+                    <div class="mb-4 pb-2">
+                      <div class="form-outline form-white">
+                        <input type="text" id="form3Examplea3" class="form-control form-control-lg" />
+                        <label class="form-label" for="form3Examplea3">Alamat</label>
+                      </div>
+                    </div>
+  
+                    <div class="mb-4 pb-2">
+                      <div class="form-outline form-white">
+                        <input type="text" id="form3Examplea6" class="form-control form-control-lg" />
+                        <label class="form-label" for="form3Examplea6">Tempat Lahir</label>
+                      </div>
+                    </div>
+
+                    <div class="mb-4 pb-2">
+                        <div class="form-outline form-white">
+                            <input
+                              type="date"
+                              class="form-control form-control-lg"
+                              id="birthdayDate"
+                            />
+                            <label for="birthdayDate" class="form-label">Birthday</label>
+                        </div>
+  
+                    <div class="form-check d-flex justify-content-start mb-4 pb-3">
+                      <input
+                        class="form-check-input me-3"
+                        type="checkbox"
+                        value=""
+                        id="form2Example3c"
+                      />
+                      <label class="form-check-label text-white" for="form2Example3">
+                        I do accept the <a href="#!" class="text-white"><u>Terms and Conditions</u></a> of your site.
+                      </label>
+                    </div>
+  
+                    <button type="button" class="btn btn-light btn-lg" data-mdb-ripple-color="dark">Register</button>
+  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("pass");
+      if (x.type === "password") {
+        x.type = "text";
+      } else {
+        x.type = "password";
+      }
+    }
+    </script>
+</body>
+</html>
